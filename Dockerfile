@@ -8,4 +8,4 @@ FROM shawnnotfound/vue-markdown:0.1
  COPY . .
 
 # 指定容器启动时执行的命令
-CMD ["npm", "start"]
+CMD ["", "start"]
