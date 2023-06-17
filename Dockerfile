@@ -11,4 +11,4 @@ WORKDIR /app
 COPY . .
 
 # 指定容器启动时执行的命令
-CMD ["/docker-entrypoint.sh", "start"]
+CMD ["/docker-entrypoint.sh", ""]
