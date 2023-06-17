@@ -2,7 +2,7 @@
 FROM shawnnotfound/vue-markdown:0.1
 
 # 修改文件权限
-RUN chmod +x /docker-entrypoint.sh
+RUN chmod +x docker-entrypoint.sh
 
 # 指定工作目录
 WORKDIR /app
